@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="scratchpad.fsx" />
+        <None Include="scratchpad2.fsx" />
+        <None Include="scratchpad3.fsx" />
+    </ItemGroup>
+
+</Project>
