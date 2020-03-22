@@ -6,7 +6,8 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <Compile Include="Program.fs"/>
+      <None Include="10.1.1-Record-Basics.fsx" />
+      <None Include="10.1.2-Creating-Records.fsx" />
     </ItemGroup>
 
 </Project>
