@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <None Include="13.2.1-Basics-Of-Higher-Order-Functions.fsx" />
+      <None Include="13.3-Dependencies-As-Functions.fsx" />
+    </ItemGroup>
+
+</Project>
