@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <None Include="20.1.1-For-Loops.fsx" />
+      <None Include="20.1.2-While-Loops.fsx" />
+      <None Include="20.1.3-Comprehensions.fsx" />
+    </ItemGroup>
+
+</Project>
