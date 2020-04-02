@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <None Include="21.1-Composition-in-FSharp.fsx" />
+      <None Include="21.2-Discriminated-Unions.fsx" />
+      <None Include="21.3.1-Nested-DUs.fsx" />
+      <None Include="21.3.2-Shared-Fields.fsx" />
+      <None Include="21.4.2-Enums.fsx" />
+    </ItemGroup>
+
+</Project>
