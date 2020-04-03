@@ -13,7 +13,7 @@ let describe score =
     | s when s > 500 -> "Good"
     | _ -> "Unknown"
 let description =
-    match customer.SafteyScore with
+    match customer.SafetyScore with
     | Some score -> Some(describe score)
     | None -> None
 
