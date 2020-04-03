@@ -1,0 +1,1 @@
+﻿let test1 = Some 5 |> Option.filter(fun x -> x > 5)
