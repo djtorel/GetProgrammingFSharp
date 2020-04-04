@@ -1,15 +1,14 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
-
-    <PropertyGroup>
-        <OutputType>Exe</OutputType>
-        <TargetFramework>netcoreapp3.1</TargetFramework>
-    </PropertyGroup>
-
-    <ItemGroup>
-      <None Include="15.1-Sample-Dataset.fsx" />
-      <None Include="15.1.3-Transformation-Pipelines.fsx" />
-      <None Include="15.2.2-Using-DotNet-Arrays.fsx" />
-      <None Include="15.2.3-Immutable-Lists.fsx" />
-    </ItemGroup>
-
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="15.1-Sample-Dataset.fsx" />
+    <None Include="15.1.3-Transformation-Pipelines.fsx" />
+    <None Include="15.2.2-Using-DotNet-Arrays.fsx" />
+    <None Include="15.2.3-Immutable-Lists.fsx" />
+  </ItemGroup>
+  <Import Project="..\.paket\Paket.Restore.targets" />
 </Project>

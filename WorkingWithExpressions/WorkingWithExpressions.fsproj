@@ -1,15 +1,14 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
-
-    <PropertyGroup>
-        <OutputType>Exe</OutputType>
-        <TargetFramework>netcoreapp3.1</TargetFramework>
-    </PropertyGroup>
-
-    <ItemGroup>
-      <None Include="7.2.1-Working-With-Expressions.fsx" />
-      <None Include="7.2.3-Introducing-Unit.fsx" />
-      <None Include="7.2.4-Discarding-Results.fsx" />
-      <None Include="7.3-Forcing-Statement-Based-Code-With-Unit.fsx" />
-    </ItemGroup>
-
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="7.2.1-Working-With-Expressions.fsx" />
+    <None Include="7.2.3-Introducing-Unit.fsx" />
+    <None Include="7.2.4-Discarding-Results.fsx" />
+    <None Include="7.3-Forcing-Statement-Based-Code-With-Unit.fsx" />
+  </ItemGroup>
+  <Import Project="..\.paket\Paket.Restore.targets" />
 </Project>

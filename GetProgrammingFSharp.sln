@@ -3,6 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".paket", ".paket", "{7BCF0C78-885B-4804-9074-DF579B2B9BD7}"
+	ProjectSection(SolutionItems) = preProject
+		paket.dependencies = paket.dependencies
+	EndProjectSection
+EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson02", "Lesson02", "{5299478C-F78F-454B-BA8B-3C312CAB06B3}"
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "MyFirstSharpApp", "MyFirstSharpApp\MyFirstSharpApp.fsproj", "{1B079BCB-30D9-4659-BE22-FEF03A50C69F}"
@@ -111,6 +116,10 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharpProject", "FSharpProj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpProject", "CSharpProject\CSharpProject.csproj", "{73946296-113A-47FA-8CEF-447D352D4BE1}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson26", "Lesson26", "{19354A8E-CFEE-4B84-842E-D587FB7BFD84}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "NugetFSharp", "NugetFSharp\NugetFSharp.fsproj", "{F67629C8-B9DA-4E2A-BBD2-10C23D728E70}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -172,6 +181,8 @@ Global
 		{220D7737-9297-4610-8A81-BD5DCEC7A11B} = {3D59B14F-677E-4A46-BBFB-B6117F65A9ED}
 		{016B516A-1A59-4552-A000-8D85954CB6D0} = {220D7737-9297-4610-8A81-BD5DCEC7A11B}
 		{73946296-113A-47FA-8CEF-447D352D4BE1} = {220D7737-9297-4610-8A81-BD5DCEC7A11B}
+		{19354A8E-CFEE-4B84-842E-D587FB7BFD84} = {3D59B14F-677E-4A46-BBFB-B6117F65A9ED}
+		{F67629C8-B9DA-4E2A-BBD2-10C23D728E70} = {19354A8E-CFEE-4B84-842E-D587FB7BFD84}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{1B079BCB-30D9-4659-BE22-FEF03A50C69F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -486,5 +497,17 @@ Global
 		{73946296-113A-47FA-8CEF-447D352D4BE1}.Release|x64.Build.0 = Release|Any CPU
 		{73946296-113A-47FA-8CEF-447D352D4BE1}.Release|x86.ActiveCfg = Release|Any CPU
 		{73946296-113A-47FA-8CEF-447D352D4BE1}.Release|x86.Build.0 = Release|Any CPU
+		{F67629C8-B9DA-4E2A-BBD2-10C23D728E70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F67629C8-B9DA-4E2A-BBD2-10C23D728E70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F67629C8-B9DA-4E2A-BBD2-10C23D728E70}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F67629C8-B9DA-4E2A-BBD2-10C23D728E70}.Debug|x64.Build.0 = Debug|Any CPU
+		{F67629C8-B9DA-4E2A-BBD2-10C23D728E70}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F67629C8-B9DA-4E2A-BBD2-10C23D728E70}.Debug|x86.Build.0 = Debug|Any CPU
+		{F67629C8-B9DA-4E2A-BBD2-10C23D728E70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F67629C8-B9DA-4E2A-BBD2-10C23D728E70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F67629C8-B9DA-4E2A-BBD2-10C23D728E70}.Release|x64.ActiveCfg = Release|Any CPU
+		{F67629C8-B9DA-4E2A-BBD2-10C23D728E70}.Release|x64.Build.0 = Release|Any CPU
+		{F67629C8-B9DA-4E2A-BBD2-10C23D728E70}.Release|x86.ActiveCfg = Release|Any CPU
+		{F67629C8-B9DA-4E2A-BBD2-10C23D728E70}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

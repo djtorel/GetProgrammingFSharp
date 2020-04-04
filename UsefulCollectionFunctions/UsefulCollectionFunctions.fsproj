@@ -1,18 +1,17 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
-
-    <PropertyGroup>
-        <OutputType>Exe</OutputType>
-        <TargetFramework>netcoreapp3.1</TargetFramework>
-    </PropertyGroup>
-
-    <ItemGroup>
-      <None Include="16.1.1-Map.fsx" />
-      <None Include="16.1.3-Collect.fsx" />
-      <None Include="16.1.4-Pairwise.fsx" />
-      <None Include="16.2.1-GroupBy.fsx" />
-      <None Include="16.2.2-CountBy.fsx" />
-      <None Include="16.2.3-Partition.fsx" />
-      <None Include="16.3.1-Simple-aggregation-functions.fsx" />
-    </ItemGroup>
-
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="16.1.1-Map.fsx" />
+    <None Include="16.1.3-Collect.fsx" />
+    <None Include="16.1.4-Pairwise.fsx" />
+    <None Include="16.2.1-GroupBy.fsx" />
+    <None Include="16.2.2-CountBy.fsx" />
+    <None Include="16.2.3-Partition.fsx" />
+    <None Include="16.3.1-Simple-aggregation-functions.fsx" />
+  </ItemGroup>
+  <Import Project="..\.paket\Paket.Restore.targets" />
 </Project>
