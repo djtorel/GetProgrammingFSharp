@@ -257,3 +257,4 @@ MyProject_coverage.xml
 
 /FSharpIn60s/bin/
 .vscode
+/.paket/
